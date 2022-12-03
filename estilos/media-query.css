@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px)  {
+
+    img#logo {
+        position: absolute;
+        top: 14%;
+        left: 13%;
+    }
+
+    h2 {
+        position: absolute;
+        top: 18%;
+        left: 13%;
+    }
+
+    p {
+        position: absolute;
+        top: 24%;
+        left: 13%;
+    }
+
+    #card1 {
+        position: absolute;
+        top: 33%;
+        left: 13%;
+    }
+
+    #card2 {
+        position: absolute;
+        top: 33%;
+        left: 26%;
+    }
+
+    div#formulario {
+        position: absolute;
+        top: 18%;
+        left: 55%;
+    }
+
+    p#subtitulo {
+        position: absolute;
+        top: 73%;
+        left: 56%;
+    }
+    
+}
