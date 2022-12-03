@@ -101,7 +101,7 @@ p#add {
 div#formulario {
     position: absolute;
     top: 55%;
-    left: 5%;
+    left: 3%;
     align-items: center;
     background-color: #fff;
     border: none;
@@ -183,7 +183,7 @@ form > input[type=button] {
 p#subtitulo {
     position: absolute;
     top: 110%;
-    left: 6%;
+    left: 5%;
     text-align: center;
     font-size: 14px;
 }
