@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
+img#logo {
+    position: absolute;
+    top: 4%;
+    left: 34%;
+    width: 160px;
+    height: 32px;
+}
+
+h2 {
+    position: absolute;
+    top: 9%;
+    left: 33%;
+    font-weight: lighter;
+}
+
+p {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    color: gray;
+}
+
+#card1 {
+    position: absolute;
+    top: 25%;
+    left: 16%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    width: 81px;
+    height: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.user {
+    transform: translateY(-35px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+p#username {
+    position: absolute;
+    top: 75%;
+    left: 31%;
+    color: #4B547A;
+    font-size: 18px;
+}
+
+#card2 {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    width: 81px;
+    height: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div#fundo {
+    background-color: #F5F6F7;
+}
+
+img#sinal {
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    width: 40px;
+    height: 40px;
+}
+
+p#add {
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    font-size: 18px;
+    color: #51B2F5;
+}
+
+div#formulario {
+    position: absolute;
+    top: 55%;
+    left: 11%;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    height: 300px;
+}
+
+form {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    text-align: center;
+}
+
+div.campo > input {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+form > div.campo {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    margin: 11px 0px;
+}
+
+input#ilogin {
+    width: 354px;
+    height: 48px;
+}
+
+input#isenha {
+    width: 354px;
+    height: 48px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 45px;
+    background-color:  #166FE5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao1 {
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 14px;
+}
+
+#botao1:hover {
+    text-decoration: underline;
+}
+
+form > input[type=button] {
+    transform: translate(107px, 1px);
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    height: 45px;
+    background-color:  #36A420;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p#subtitulo {
+    position: absolute;
+    top: 109%;
+    left: 12%;
+    text-align: center;
+    font-size: 14px;
+}
+
+p#subtitulo > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+p#subtitulo > a:hover {
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="Yootheme-Social-Bookmark-Social-facebook-button-blue.ico" type="image/x-icon">
+    <title>Facebook - entre ou cadastre-se</title>
+</head>
+<body>
+    <img src="imagens/Facebook_Logo_(2019).svg.png" alt="logo" id="logo">
+    <h2>Logins recentes</h2>
+    <p>Clique na sua foto ou adicione uma conta.</p>
+    <a href="#">
+        <section id="card1">
+            <img src="imagens/usuario.jpg" alt="usuario" class="user">
+            <p id="username">Gabriel</p>
+        </section>
+    </a>
+    <a href="#">
+        <section id="card2">
+            <div id="fundo"></div>
+            <img src="imagens/sinal-de-mais.png" alt="sinal" id="sinal">
+            <p id="add">Adicionar conta</p>
+        </section>
+    </a>
+    <div id="formulario">
+        <form action="login.php" method="post">
+            <div class="campo">
+                <input type="email" name="login" id="ilogin" placeholder="Email ou telefone" required><br>
+            </div>
+            <div class="campo">
+                <input type="password" name="senha" id="isenha" placeholder="Senha" required><br>
+            </div>
+            <input type="submit" value="Entrar"><br>
+            <a href="#" id="botao1">Esqueceu a senha?</a><br>
+            <hr>
+            <input type="button" value="Criar nova conta">
+        </form>
+    </div>
+    <p id="subtitulo"><a href="#">Criar uma Página</a> para uma celebridade, uma marca ou uma <br>empresa. </p>
+</body>
+</html>
