@@ -33,7 +33,7 @@ p {
 #card1 {
     position: absolute;
     top: 25%;
-    left: 11%;
+    left: 9%;
     background-color: white;
     display: flex;
     flex-direction: column;
