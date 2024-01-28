@@ -12,6 +12,14 @@
         margin-top: 14%;
     }
 
+    #form-perfil {
+        width: 350px;
+    }
+
+    .campos, #btn-submit {
+        width: 320px;
+    }
+
     #texto-anuncio {
         margin-bottom: 5%;
     }
