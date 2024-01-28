@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    #login-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    #form-perfil {
+        width: 100%;
+    }
+
+    .campos, #btn-submit {
+        width: 160%;
+    }
+
+    #texto-anuncio {
+        margin-bottom: 5%;
+    }
+}
