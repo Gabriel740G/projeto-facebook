@@ -6,11 +6,10 @@
         flex-direction: column;
         gap: 0px;
         text-align: center;
-        margin-top: 25%;
     }
 
-    #form-perfil {
-        width: 100%;
+    #logo-facebook {
+        margin-top: 14%;
     }
 
     .campos, #btn-submit {

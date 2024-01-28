@@ -121,7 +121,7 @@ body {
 .campos {
     padding: 16px;
     font-size: 17px;
-    width: 150%;
+    width: 350px;
     border-radius: 4px;
     border: 1px solid lightgray;
     outline: none;
@@ -167,7 +167,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding: 12px;
-    width: 150%;
+    width: 350px;
     cursor: pointer;
 }
 
