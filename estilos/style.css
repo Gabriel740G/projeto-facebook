@@ -107,8 +107,8 @@ body {
 #form-perfil {
     background-color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.411);
-    width: 30vw;
-    height: 52vh;
+    width: 400px;
+    height: 340px;
     gap: 20px;
     padding: 15px;
     border-radius: 6px;
@@ -121,7 +121,7 @@ body {
 .campos {
     padding: 16px;
     font-size: 17px;
-    width: 27.5vw;
+    width: 150%;
     border-radius: 4px;
     border: 1px solid lightgray;
     outline: none;
@@ -167,7 +167,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding: 12px;
-    width: 27.5vw;
+    width: 150%;
     cursor: pointer;
 }
 
