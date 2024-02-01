@@ -11,6 +11,8 @@ body {
     background-color: #F0F2F5;
 }
 
+
+
 #login-container {
     display: flex;
     justify-content: center;
@@ -25,6 +27,8 @@ body {
     gap: 10px;
     transform: translateY(-9vh);
 }
+
+/* Configurações da logo e titulo e subtitulo */
 
 #logo-facebook img {
     height: 35px;
@@ -41,6 +45,8 @@ body {
     font-size: 15px;
     color: rgb(82, 81, 81);
 }
+
+/* Configurações da parte de perfis */
 
 #opcoes {
     display: flex;
@@ -96,6 +102,8 @@ body {
 #texto-nova_conta {
     color: #1976F2;
 }
+
+/* Configurações do formulário de login */
 
 #login, #form-perfil, form {
     display: flex;
