@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    #login-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+
+    #logo-facebook {
+        margin-top: 20%;
+    }
+
+    #form-perfil {
+        width: 340px;
+    }
+
+    #texto-anuncio {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-size: 13px;
+    }
+}
