@@ -136,6 +136,10 @@ body {
     outline: none;
 }
 
+.campos:focus {
+    outline: 1px solid blue;
+}
+
 #forgot-password {
     text-decoration: none;
     text-transform: none;
